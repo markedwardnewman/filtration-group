@@ -1,7 +1,7 @@
 #Filtration Group
 ###An Employment Challenge
 
-My submitted mockup [here](http://markedwardnewman.com/filtration-group-gh-pages/).
+My submitted mockup [here](http://markedwardnewman.com/filtration-group-gh-pages/).  I used only flexbox to make it responsive, so no framework overhead.  
 
 My [portfolio](http://markedwardnewman.com/).
 
@@ -59,22 +59,24 @@ In the `<header>`:
 
 In the main content section:
 
-  - The hero image gallery / slider is nice.  I would maximize the width to 100%, fade the images, and overlay the copy with a subtle text shadow (or put a solid color behind the text, depending on how well the images work).
+- The hero image gallery / slider is nice.  I would maximize the width to 100%, fade the images, and overlay the copy with a subtle text shadow (or put a solid color behind the text, depending on how well the images work).
 
-  - Move the "THE MOST COMPREHENSIVE AND ADVANCED SOLUTIONS IN THE INDUSTRY" header and its content to the hero area.
+- Move the "THE MOST COMPREHENSIVE AND ADVANCED SOLUTIONS IN THE INDUSTRY" header and its content to the hero area.
 
-  - Keep the four "Brands" like they are layed out. Replace the images with the colored boxes that are currently below the "Learn more" links.  Remove the redundant Brand text (currently in grey divs).
+- Keep the four "Brands" like they are layed out. Replace the images with the colored boxes that are currently below the "Learn more" links.  Remove the redundant Brand text (currently in grey divs).
 
-  - Keep the "Become a Business Customer" section as is, but change the "Apply Today" button to "Join Today".
+- Keep the "Become a Business Customer" section as is, but change the "Apply Today" button to "Join Today".
 
 In the `<footer>`:
 
-  - Remove the wall of text.  See here for fun: [https://blog.codinghorror.com/teaching-users-to-read/](https://blog.codinghorror.com/teaching-users-to-read/)
+- Remove the wall of text.  See here for fun: [https://blog.codinghorror.com/teaching-users-to-read/](https://blog.codinghorror.com/teaching-users-to-read/)
 
-  - Make the "Quick Links" a horizontal menu on top.  Move the *Privacy Policy* and *Terms of Use* links to here.
+- Make the "Quick Links" a horizontal menu on top.  Move the *Privacy Policy* and *Terms of Use* links to here.
 
-  - If the Industries menu is necessary, use flexbox to spread out the different values in an appealing way. 
+- If the Industries menu is necessary, use flexbox to spread out the different values in an appealing way.
 
+   
+###Post processing includes all grunt tasks listed below (minify css, remove unused css, etc.)
 
 ##Project Development Notes
 **Environmental dependencies:**

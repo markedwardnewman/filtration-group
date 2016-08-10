@@ -6,9 +6,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				files: {
-					'dist/assets/css/main.css' : 'src/assets/css/main.scss',
-          'dist/assets/vendor/slick/css/slick.css' : 'src/assets/vendor/slick/css/slick.scss',
-          'dist/assets/vendor/slick/css/slick-theme.css' : 'src/assets/vendor/slick/css/slick-theme.scss'
+					'dist/assets/css/main.css' : 'src/assets/css/main.scss'
 				}
 			}
 		},
@@ -39,9 +37,7 @@ module.exports = function(grunt) {
     uncss: { 
       dist: {
         files: {
-          'dist/assets/css/main.css':'dist/index.html',
-          'dist/assets/vendor/slick/css/slick.css' : 'dist/index.html',
-          'dist/assets/vendor/slick/css/slick-theme.css' : 'dist/index.html'
+          'dist/assets/css/main.css':'dist/index.html'
         }
       }
     },
@@ -82,5 +78,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-w3c-html-validation');
 	grunt.registerTask('default',['watch']);
   grunt.registerTask('test',['validation']);
-  grunt.registerTask('prod',['sass','postcss','uncss','validation']);
+  grunt.registerTask('prod',['sass','postcss','validation']);
 }
