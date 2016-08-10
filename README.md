@@ -1,7 +1,7 @@
 #Filtration Group
 ###An Employment Challenge
 
-My submitted mockup [here](http://markedwardnewman.com/filtration-group-gh-pages/).  I used only flexbox to make it responsive, so no framework overhead.  
+My submitted mockup [here](http://markedwardnewman.com/filtration-group-gh-pages/).  I used only flexbox to make it responsive, so no framework overhead.  Total size, images included = 280Kb.  
 
 My [portfolio](http://markedwardnewman.com/).
 
