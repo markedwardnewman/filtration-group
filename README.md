@@ -1,7 +1,7 @@
 #Filtration Group
 ###An Employment Challenge
 
-My submitted mockup: dist/[index.html](dist/index.html)
+My submitted mockup [here](http://markedwardnewman.com/filtration-group-gh-pages/).
 
 My [portfolio](http://markedwardnewman.com/).
 

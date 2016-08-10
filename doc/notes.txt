@@ -20,9 +20,9 @@ In the <head>
 
 In the <body>
 In general:
-  - The site should be made HTML5 comliant.  Ie, All design and layout should be done entirely with css. 
+  - The site should be made HTML5 comliant.  All design and layout should be done entirely with css. 
 
-  - Make the site 100% wide and fluid.  Ie, class="container-fluid" in Bootstrap terms.
+  - Make the site 100% wide and fluid.
 
   - There is too much information given on the homepage.  Cookies used to be a good way to reduce clutter by serving relevant content based upon previous sessions.  Since cookies have recently come under fire, look into other acceptable ways to store session information for serving content.  See here for possible alternatives: https://www.w3.org/TR/webstorage/  For example, I see "Quick Order", "Buy Online", and "Login" links.  Which one do I choose if I want to buy something?  Maybe only show the "Quick Order" for established clients?
 
@@ -33,6 +33,7 @@ In the header:
   - Have only one main nav at the top, below the logo, with only these links (The other links can be moved to the footer):
     * About Us
     * Products (or Brands if absolutely necessary)
+    * Contact Us
     * Login/Register
 
   - Until a satisfactory Intershop search algorithm can be implemented, completely remove the search field. I quickly tested it by typing in "kaydon" (the first product I saw under the Brands drop-down), and got a "No Results Found".  Personally, except for a few extremely popular sites like Amazon, I have given up on using any built-in site search.  These days I usually get better results Googling the company name + whatever I am looking for.
