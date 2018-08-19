@@ -5,7 +5,7 @@ My submitted mockup [here](http://marknewman.me/filtration-group-gh-pages/).  I 
 
 ## Project Notes
 
-Before changing anything I would fix the current issues as revealed [here](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.filtrationgroup.com%2FWFS%2FFGCBusiness%2Fen_US%2F-%2FUSD%2F&showoutline=yes). 
+Before changing anything I would fix any semantic issues as revealed [here](https://validator.w3.org). 
 
 Once those quick fixes have been done:
 
